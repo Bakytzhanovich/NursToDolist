@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F542D502B395A1500995EFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F542D4F2B395A1500995EFF /* AppDelegate.swift */; };
+		8F542D522B395A1500995EFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F542D512B395A1500995EFF /* SceneDelegate.swift */; };
+		8F542D542B395A1500995EFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F542D532B395A1500995EFF /* ViewController.swift */; };
+		8F542D572B395A1500995EFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F542D552B395A1500995EFF /* Main.storyboard */; };
+		8F542D592B395A1500995EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F542D582B395A1500995EFF /* Assets.xcassets */; };
+		8F542D5C2B395A1500995EFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F542D5A2B395A1500995EFF /* LaunchScreen.storyboard */; };
+		8F542D672B395A1600995EFF /* NursToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F542D662B395A1600995EFF /* NursToDoListTests.swift */; };
+		8F542D712B395A1600995EFF /* NursToDoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F542D702B395A1600995EFF /* NursToDoListUITests.swift */; };
+		8F542D732B395A1600995EFF /* NursToDoListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F542D722B395A1600995EFF /* NursToDoListUITestsLaunchTests.swift */; };
+		8F542D802B395F4A00995EFF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F542D7F2B395F4A00995EFF /* TableViewController.swift */; };
+		8F542D822B39AB1500995EFF /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F542D812B39AB1500995EFF /* Contacts.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F542D632B395A1600995EFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F542D442B395A1500995EFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F542D4B2B395A1500995EFF;
+			remoteInfo = NursToDoList;
+		};
+		8F542D6D2B395A1600995EFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F542D442B395A1500995EFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F542D4B2B395A1500995EFF;
+			remoteInfo = NursToDoList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F542D4C2B395A1500995EFF /* NursToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NursToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F542D4F2B395A1500995EFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F542D512B395A1500995EFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8F542D532B395A1500995EFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F542D562B395A1500995EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F542D582B395A1500995EFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F542D5B2B395A1500995EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F542D5D2B395A1500995EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F542D622B395A1600995EFF /* NursToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NursToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F542D662B395A1600995EFF /* NursToDoListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NursToDoListTests.swift; sourceTree = "<group>"; };
+		8F542D6C2B395A1600995EFF /* NursToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NursToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F542D702B395A1600995EFF /* NursToDoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NursToDoListUITests.swift; sourceTree = "<group>"; };
+		8F542D722B395A1600995EFF /* NursToDoListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NursToDoListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8F542D7F2B395F4A00995EFF /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		8F542D812B39AB1500995EFF /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F542D492B395A1500995EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F542D5F2B395A1600995EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F542D692B395A1600995EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F542D432B395A1500995EFF = {
+			isa = PBXGroup;
+			children = (
+				8F542D4E2B395A1500995EFF /* NursToDoList */,
+				8F542D652B395A1600995EFF /* NursToDoListTests */,
+				8F542D6F2B395A1600995EFF /* NursToDoListUITests */,
+				8F542D4D2B395A1500995EFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F542D4D2B395A1500995EFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F542D4C2B395A1500995EFF /* NursToDoList.app */,
+				8F542D622B395A1600995EFF /* NursToDoListTests.xctest */,
+				8F542D6C2B395A1600995EFF /* NursToDoListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F542D4E2B395A1500995EFF /* NursToDoList */ = {
+			isa = PBXGroup;
+			children = (
+				8F542D4F2B395A1500995EFF /* AppDelegate.swift */,
+				8F542D512B395A1500995EFF /* SceneDelegate.swift */,
+				8F542D532B395A1500995EFF /* ViewController.swift */,
+				8F542D7F2B395F4A00995EFF /* TableViewController.swift */,
+				8F542D812B39AB1500995EFF /* Contacts.swift */,
+				8F542D552B395A1500995EFF /* Main.storyboard */,
+				8F542D582B395A1500995EFF /* Assets.xcassets */,
+				8F542D5A2B395A1500995EFF /* LaunchScreen.storyboard */,
+				8F542D5D2B395A1500995EFF /* Info.plist */,
+			);
+			path = NursToDoList;
+			sourceTree = "<group>";
+		};
+		8F542D652B395A1600995EFF /* NursToDoListTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F542D662B395A1600995EFF /* NursToDoListTests.swift */,
+			);
+			path = NursToDoListTests;
+			sourceTree = "<group>";
+		};
+		8F542D6F2B395A1600995EFF /* NursToDoListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F542D702B395A1600995EFF /* NursToDoListUITests.swift */,
+				8F542D722B395A1600995EFF /* NursToDoListUITestsLaunchTests.swift */,
+			);
+			path = NursToDoListUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F542D4B2B395A1500995EFF /* NursToDoList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F542D762B395A1600995EFF /* Build configuration list for PBXNativeTarget "NursToDoList" */;
+			buildPhases = (
+				8F542D482B395A1500995EFF /* Sources */,
+				8F542D492B395A1500995EFF /* Frameworks */,
+				8F542D4A2B395A1500995EFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NursToDoList;
+			productName = NursToDoList;
+			productReference = 8F542D4C2B395A1500995EFF /* NursToDoList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F542D612B395A1600995EFF /* NursToDoListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F542D792B395A1600995EFF /* Build configuration list for PBXNativeTarget "NursToDoListTests" */;
+			buildPhases = (
+				8F542D5E2B395A1600995EFF /* Sources */,
+				8F542D5F2B395A1600995EFF /* Frameworks */,
+				8F542D602B395A1600995EFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F542D642B395A1600995EFF /* PBXTargetDependency */,
+			);
+			name = NursToDoListTests;
+			productName = NursToDoListTests;
+			productReference = 8F542D622B395A1600995EFF /* NursToDoListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F542D6B2B395A1600995EFF /* NursToDoListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F542D7C2B395A1600995EFF /* Build configuration list for PBXNativeTarget "NursToDoListUITests" */;
+			buildPhases = (
+				8F542D682B395A1600995EFF /* Sources */,
+				8F542D692B395A1600995EFF /* Frameworks */,
+				8F542D6A2B395A1600995EFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F542D6E2B395A1600995EFF /* PBXTargetDependency */,
+			);
+			name = NursToDoListUITests;
+			productName = NursToDoListUITests;
+			productReference = 8F542D6C2B395A1600995EFF /* NursToDoListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F542D442B395A1500995EFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8F542D4B2B395A1500995EFF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					8F542D612B395A1600995EFF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8F542D4B2B395A1500995EFF;
+					};
+					8F542D6B2B395A1600995EFF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8F542D4B2B395A1500995EFF;
+					};
+				};
+			};
+			buildConfigurationList = 8F542D472B395A1500995EFF /* Build configuration list for PBXProject "NursToDoList" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F542D432B395A1500995EFF;
+			productRefGroup = 8F542D4D2B395A1500995EFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F542D4B2B395A1500995EFF /* NursToDoList */,
+				8F542D612B395A1600995EFF /* NursToDoListTests */,
+				8F542D6B2B395A1600995EFF /* NursToDoListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F542D4A2B395A1500995EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F542D5C2B395A1500995EFF /* LaunchScreen.storyboard in Resources */,
+				8F542D592B395A1500995EFF /* Assets.xcassets in Resources */,
+				8F542D572B395A1500995EFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F542D602B395A1600995EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F542D6A2B395A1600995EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F542D482B395A1500995EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F542D822B39AB1500995EFF /* Contacts.swift in Sources */,
+				8F542D542B395A1500995EFF /* ViewController.swift in Sources */,
+				8F542D502B395A1500995EFF /* AppDelegate.swift in Sources */,
+				8F542D522B395A1500995EFF /* SceneDelegate.swift in Sources */,
+				8F542D802B395F4A00995EFF /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F542D5E2B395A1600995EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F542D672B395A1600995EFF /* NursToDoListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F542D682B395A1600995EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F542D732B395A1600995EFF /* NursToDoListUITestsLaunchTests.swift in Sources */,
+				8F542D712B395A1600995EFF /* NursToDoListUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F542D642B395A1600995EFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F542D4B2B395A1500995EFF /* NursToDoList */;
+			targetProxy = 8F542D632B395A1600995EFF /* PBXContainerItemProxy */;
+		};
+		8F542D6E2B395A1600995EFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F542D4B2B395A1500995EFF /* NursToDoList */;
+			targetProxy = 8F542D6D2B395A1600995EFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F542D552B395A1500995EFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F542D562B395A1500995EFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F542D5A2B395A1500995EFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F542D5B2B395A1500995EFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F542D742B395A1600995EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F542D752B395A1600995EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F542D772B395A1600995EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NursToDoList/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nursat.NursToDoList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F542D782B395A1600995EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NursToDoList/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nursat.NursToDoList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F542D7A2B395A1600995EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nursat.NursToDoListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NursToDoList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NursToDoList";
+			};
+			name = Debug;
+		};
+		8F542D7B2B395A1600995EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nursat.NursToDoListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NursToDoList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NursToDoList";
+			};
+			name = Release;
+		};
+		8F542D7D2B395A1600995EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nursat.NursToDoListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NursToDoList;
+			};
+			name = Debug;
+		};
+		8F542D7E2B395A1600995EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nursat.NursToDoListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NursToDoList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F542D472B395A1500995EFF /* Build configuration list for PBXProject "NursToDoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F542D742B395A1600995EFF /* Debug */,
+				8F542D752B395A1600995EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F542D762B395A1600995EFF /* Build configuration list for PBXNativeTarget "NursToDoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F542D772B395A1600995EFF /* Debug */,
+				8F542D782B395A1600995EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F542D792B395A1600995EFF /* Build configuration list for PBXNativeTarget "NursToDoListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F542D7A2B395A1600995EFF /* Debug */,
+				8F542D7B2B395A1600995EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F542D7C2B395A1600995EFF /* Build configuration list for PBXNativeTarget "NursToDoListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F542D7D2B395A1600995EFF /* Debug */,
+				8F542D7E2B395A1600995EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F542D442B395A1500995EFF /* Project object */;
+}
